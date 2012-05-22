@@ -29,15 +29,15 @@ if (!Modernizr.input.placeholder){
 // Form input:focus state
 $('input[type="text"]').focus(function(){ 
 	$(this).addClass('focus');
-});  
+});
 
 $('input[type="textarea"]').focus(function(){ 
 	$(this).addClass('focus');
-});  	
+});
 
 $('input[type="text"]').focusout(function(){
 	$(this).removeClass('focus');
-});	
+});
 $('input[type="textarea"]').focusout(function(){
 	$(this).removeClass('focus');
 });
