@@ -38,6 +38,7 @@ $('input[type="textarea"]').focus(function(){
 $('input[type="text"]').focusout(function(){
 	$(this).removeClass('focus');
 });
+
 $('input[type="textarea"]').focusout(function(){
 	$(this).removeClass('focus');
 });
